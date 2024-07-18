@@ -1,4 +1,4 @@
-# Tic-Tac-Toe Game
+# Tic-Tac-Toe Game(exersises-project)
 
 This project is a simple Tic-Tac-Toe game written in Python. You can play against the computer by running this code.
 
