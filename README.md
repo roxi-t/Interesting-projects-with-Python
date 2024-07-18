@@ -12,8 +12,8 @@ This project is a simple Tic-Tac-Toe game written in Python. You can play agains
 # Run the Game
 
 After installing the dependencies, you can run the main.py file:
- ```bash
-     python main.py ```
+  ```bash
+     python main.py
 # How to Play
 
 The player uses the X symbol, and the computer uses the O symbol.
