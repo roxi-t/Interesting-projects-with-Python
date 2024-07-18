@@ -62,8 +62,9 @@ This project is a simple countdown timer written in Python. The user can set a s
 1. **Run the Script**
 
    Run the `timer.py` file:
-   ```bash
+   ```shell
    python timer.py
+   ```
 # Set the Timer
 
 The script will prompt you to start the timer.
