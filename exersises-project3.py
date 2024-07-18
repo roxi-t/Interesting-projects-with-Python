@@ -1,26 +1,41 @@
 import time
-# برای حذف تایم های قبلی 
-from os import system , name
-while True :
-    Choice = input("Do you want to start ? (y/n) : ")
+# To clear previous outputs
+from os import system, name
+
+while True:
+    # Prompt the user to start the timer
+    Choice = input("Do you want to start? (y/n): ")
     if 'y' in Choice.lower():
-        hour = int(input("Enter hour : "))
-        minuts = int(input("Enter minuts : "))
-        second = int(input("Enter second : "))
-        total = hour * 60 * 60 +minuts *60 + second
-        print("Timers Start now ... ")
+        # Get the timer duration from the user
+        hour = int(input("Enter hour: "))
+        minutes = int(input("Enter minutes: "))
+        second = int(input("Enter seconds: "))
+        
+        # Calculate the total time in seconds
+        total = hour * 60 * 60 + minutes * 60 + second
+        
+        print("Timer starts now...")
         time.sleep(1)
-        while total > 1 :
+        
+        # Countdown loop
+        while total > 1:
             print(total)
-            total -=1
+            total -= 1
             time.sleep(1)
+            
+            # Clear the screen based on the operating system
             if name == "nt":
                 system("cls")
-            else :
+            else:
                 system("clear")
-        print("Timer ended .... ")
+        
+        print("Timer ended...")
+    
     elif 'n' in Choice.lower():
-        print("Exiting ....")
+        # Exit the program if user chooses 'n'
+        print("Exiting...")
         break
-    else :
-        print("invalid input ... ")
+    
+    else:
+        # Handle invalid input
+        print("Invalid input...")
