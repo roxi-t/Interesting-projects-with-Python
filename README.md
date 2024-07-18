@@ -49,5 +49,40 @@ Choose your move (1-9): 1
 
 [7] [8] [9] 
 ```
+
+### Countdown Timer
+
+```markdown
+# Countdown Timer
+
+This project is a simple countdown timer written in Python. The user can set a specific time duration, and the timer will count down to zero.
+
+## How to Use
+
+1. **Run the Script**
+
+   Run the `timer.py` file:
+   ```bash
+   python timer.py
+# Set the Timer
+
+The script will prompt you to start the timer.
+Enter the hours, minutes, and seconds for the countdown.
+
+# Timer Operation
+
+The timer will display the remaining time and update every second.
+The screen will be cleared each second to show the updated time.
+When the timer reaches zero, a message will be displayed indicating that the timer has ended.
+
+# Code Structure
+The script uses a loop to continuously prompt the user to start the timer or exit.
+It calculates the total time in seconds based on user input.
+The countdown loop updates the remaining time every second and clears the screen for updated display.
+The screen is cleared using the appropriate command for the operating system (`cls` for Windows, `clear` for Unix-based systems).
+## Example
+Here is an example interaction with the countdown timer:
+
+
 **I hope you enjoy this project! If you have any questions or feedback, feel free to reach out.**
 
