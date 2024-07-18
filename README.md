@@ -83,7 +83,18 @@ The countdown loop updates the remaining time every second and clears the screen
 The screen is cleared using the appropriate command for the operating system (`cls` for Windows, `clear` for Unix-based systems).
 ## Example
 Here is an example interaction with the countdown timer:
-
+```shell
+Do you want to start? (y/n): y
+Enter hour: 0
+Enter minutes: 1
+Enter seconds: 30
+Timer starts now...
+90
+89
+88
+...
+Timer ended...
+```
 
 **I hope you enjoy this project! If you have any questions or feedback, feel free to reach out.**
 
