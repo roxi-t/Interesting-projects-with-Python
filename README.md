@@ -7,9 +7,9 @@ This project is a simple Tic-Tac-Toe game written in Python. You can play agains
 1. **Install Dependencies**
 
    First, you need to install the `termcolor` library. You can use pip for this:
-   ```shell
-   pip install termcolor
-   ```
+```shell
+   python main.py
+```
 # Run the Game
 
 After installing the dependencies, you can run the main.py file:
