@@ -44,13 +44,10 @@ Computer: O
 Choose your move (1-9): 1
 
 [X] [2] [3]
-```
-**I hope you enjoy this project! If you have any questions or feedback, feel free to reach out.**
 
-
-
-[4] [5] [6] 
+[4] [5] [6]
 
 [7] [8] [9] 
 ```
+**I hope you enjoy this project! If you have any questions or feedback, feel free to reach out.**
 
