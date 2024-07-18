@@ -54,7 +54,7 @@ Choose your move (1-9): 1
 
 ```markdown
 # Countdown Timer
-
+```
 This project is a simple countdown timer written in Python. The user can set a specific time duration, and the timer will count down to zero.
 
 ## How to Use
